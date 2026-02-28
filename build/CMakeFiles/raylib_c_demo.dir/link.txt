@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/raylib_c_demo.dir/main.c.o -o raylib_c_demo  /usr/local/lib/libraylib.a -lm -lpthread -ldl -lGL -lX11 -L/usr/local/lib -lraylib 

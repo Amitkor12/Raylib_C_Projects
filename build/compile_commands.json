@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/amit/Raylib_C_Projects/build",
+  "command": "/usr/bin/gcc-12 -g -I/usr/local/include -std=gnu99 -o CMakeFiles/raylib_c_demo.dir/main.c.o -c /home/amit/Raylib_C_Projects/main.c",
+  "file": "/home/amit/Raylib_C_Projects/main.c"
+}
+]

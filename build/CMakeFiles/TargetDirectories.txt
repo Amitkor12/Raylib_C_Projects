@@ -1,0 +1,3 @@
+/home/amit/Raylib_C_Projects/build/CMakeFiles/raylib_c_demo.dir
+/home/amit/Raylib_C_Projects/build/CMakeFiles/edit_cache.dir
+/home/amit/Raylib_C_Projects/build/CMakeFiles/rebuild_cache.dir
