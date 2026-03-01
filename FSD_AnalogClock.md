@@ -50,6 +50,9 @@ typedef struct AnalogClockData {
     int minute;         // Current minute (0-59)
     int hour;          // Current hour in 12-hour format (0-11)
     int second;        // Current second (0-59)
+    int day;            // current Day of the month (1-31)
+    int month;          // current month of the year (1 - 12)
+    int year;           // current year (year - 1900)
     Vector2 position;  // Center position of clock on screen
 } s_AnalogClockData;
 ```
@@ -80,6 +83,9 @@ typedef struct AnalogClockData {
   - Hour: 0
   - Minute: 0
   - Second: 0
+  - Day : 1
+  - Month: 1
+  - Year: 2026
 
 ### 4.3 Time Update
 **Requirement:** Update clock data with current system time every frame.
