@@ -67,8 +67,8 @@ CMAKE_BINARY_DIR = /home/amit/Raylib_C_Projects/build
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/opt/st/stm32cubeclt_1.17.0/CMake/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_c_demo.dir/build.make CMakeFiles/raylib_c_demo.dir/main.c.s
 .PHONY : main.c.s
 
+src/AnalogClock.o: src/AnalogClock.c.o
+.PHONY : src/AnalogClock.o
+
+# target to build an object file
+src/AnalogClock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_c_demo.dir/build.make CMakeFiles/raylib_c_demo.dir/src/AnalogClock.c.o
+.PHONY : src/AnalogClock.c.o
+
+src/AnalogClock.i: src/AnalogClock.c.i
+.PHONY : src/AnalogClock.i
+
+# target to preprocess a source file
+src/AnalogClock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_c_demo.dir/build.make CMakeFiles/raylib_c_demo.dir/src/AnalogClock.c.i
+.PHONY : src/AnalogClock.c.i
+
+src/AnalogClock.s: src/AnalogClock.c.s
+.PHONY : src/AnalogClock.s
+
+# target to generate assembly for a file
+src/AnalogClock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_c_demo.dir/build.make CMakeFiles/raylib_c_demo.dir/src/AnalogClock.c.s
+.PHONY : src/AnalogClock.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/AnalogClock.o"
+	@echo "... src/AnalogClock.i"
+	@echo "... src/AnalogClock.s"
 .PHONY : help
 
 

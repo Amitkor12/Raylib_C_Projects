@@ -13,7 +13,8 @@
 			"add_executable",
 			"target_link_libraries",
 			"set_target_properties",
-			"find_package"
+			"find_package",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -34,7 +35,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 10,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
@@ -52,6 +53,12 @@
 				"file" : 1,
 				"line" : 65,
 				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
 			}
 		]
 	},
@@ -61,14 +68,18 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
-				{
 					"backtrace" : 2,
 					"fragment" : "-I/usr/local/include"
 				},
 				{
 					"fragment" : "-std=gnu99"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/amit/Raylib_C_Projects/src"
 				}
 			],
 			"language" : "C",
@@ -82,7 +93,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -91,10 +103,6 @@
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -150,7 +158,15 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
 			]
 		}
 	],
@@ -161,6 +177,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "main.c",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/AnalogClock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/AnalogClock.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

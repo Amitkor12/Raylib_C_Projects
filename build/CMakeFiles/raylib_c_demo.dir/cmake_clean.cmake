@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/raylib_c_demo.dir/main.c.o"
   "CMakeFiles/raylib_c_demo.dir/main.c.o.d"
+  "CMakeFiles/raylib_c_demo.dir/src/AnalogClock.c.o"
+  "CMakeFiles/raylib_c_demo.dir/src/AnalogClock.c.o.d"
   "raylib_c_demo"
   "raylib_c_demo.pdb"
 )

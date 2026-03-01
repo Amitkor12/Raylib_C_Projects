@@ -1,6 +1,6 @@
 #!/bin/bash
 
 cd build
-cmake ..
-make
+rm -rf * && cmake ..
+make clean all
 ./raylib_c_demo

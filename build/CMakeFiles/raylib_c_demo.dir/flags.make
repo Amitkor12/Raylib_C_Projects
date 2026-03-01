@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I/home/amit/Raylib_C_Projects/src
 
 C_FLAGS = -I/usr/local/include -std=gnu99
 

@@ -1,9 +1,10 @@
-CMakeFiles/raylib_c_demo.dir/main.c.o: \
- /home/amit/Raylib_C_Projects/main.c /usr/include/stdc-predef.h \
+CMakeFiles/raylib_c_demo.dir/src/AnalogClock.c.o: \
+ /home/amit/Raylib_C_Projects/src/AnalogClock.c \
+ /usr/include/stdc-predef.h \
+ /home/amit/Raylib_C_Projects/src/AnalogClock.h \
  /usr/local/include/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/amit/Raylib_C_Projects/src/AnalogClock.h /usr/include/time.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/time.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
